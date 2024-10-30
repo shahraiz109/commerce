@@ -1,0 +1,37 @@
+.search{
+    width: 100vh;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    position: fixed;
+}
+.input {
+        box-shadow: 0 0 5px blue;
+            border-color: azure;
+            border: none;
+            color: red;
+            padding: 1vmax 2vmax;
+            width: 50%;
+            outline: none;
+            border-radius: 0%;
+            font: 300 1.1vmax cursive;
+            box-sizing: border-box;
+            height: 8%;
+}
+.rono{
+    height: 8%;
+    border-radius: 0%;
+    background-color: orangered;
+    border: none;
+    padding: 1vmax;
+    width: 10%;
+    font: 300 1.1vmax "Roboto";
+    cursor: pointer;
+
+}
+.rono:hover{
+background-color: blue;
+}

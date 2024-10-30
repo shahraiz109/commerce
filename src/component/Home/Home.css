@@ -1,0 +1,111 @@
+.banner{
+    background-image: linear-gradient(to right,rgba(0, 0, 255, 0.341),blue);
+    height: 100vmin;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.banner h1 {
+    margin: 5vmax;
+    font-size: 2.5vmax;
+}
+.banner p{
+    font-size: 1vmax;
+}
+.banner a button{
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    padding: 1vmax;
+    transition: all 0.5;
+    width: 9vmax;
+    font: 500 1vmax "Roboto";
+}
+.banner a button:hover{
+    background-color: dimgray;
+}
+
+.banner::after{
+    content: "";
+    width: 100vw;
+    height: 100vmin;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    clip-path: polygon(100% 60%, 0 100%, 100% 100%);
+    max-width: 100%;
+}
+
+.feature{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 1.4vmax;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.481);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+    color: black;
+
+}
+.container {
+    display: flex;
+   margin: 4vmax auto;
+   width: 60vw;
+   flex-wrap: wrap;
+   justify-content: center;
+   max-width: 100%;
+
+}
+
+
+.product{
+    width: 14vmax;
+}
+.product div{
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: center;
+}
+.product div span{
+    margin: 0.2vmax;
+    font: 200 0.7vmax ;
+}
+.product p{
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+}
+.product span{
+    margin: 0.5vmax ;
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vmax;
+}
+ .product:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.171);
+    transform: translate(-1vmax);
+ }
+
+ @media  screen and (max-width:600px ) {
+    .product p{
+        font-size: 1.7vmax;
+    }
+    .product div{
+        margin: 0vmax;
+        display: block;
+    }
+    .product span{
+        font-size: 1.5vmax;
+    }
+    .product div span{
+        margin: 0.5vmax;
+        font: 300 1vmax ;
+    }
+ }

@@ -1,0 +1,31 @@
+.carditemcard{
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+    justify-content: flex-start;
+
+}
+.carditemcard img{
+    width: 5vmax;
+}
+.carditemcard div{
+    display: flex;
+    margin: 0.3vmax 1vmax;
+    flex-direction: column;
+}
+.carditemcard div a{
+    font: 300 0.9vmax cursive;
+    text-decoration: none;
+    color: black;
+}
+.carditemcard div span{
+    font: 300 0.9vmax "Roboto";
+    color: black;
+}
+.carditemcard div p{
+    color: tomato;
+    cursor: pointer;
+    font: 100 0.9vmax "Roboto";
+}
